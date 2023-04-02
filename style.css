@@ -1,0 +1,14 @@
+.para{
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    background-color: green;
+}
+
+.details{
+    background-color: yellow;
+    margin-right: 2rem;
+}
