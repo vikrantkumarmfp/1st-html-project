@@ -1,14 +1,23 @@
-.para{
-    background-color: red;
-    display: flex;
-    align-items: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
 }
 
-.image{
-    background-color: green;
+.para {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.details{
-    background-color: yellow;
-    margin-right: 2rem;
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  padding: 5px;
+  border-right: 2px solid black;
+}
+
+.details {
+  padding: 5px;
 }
